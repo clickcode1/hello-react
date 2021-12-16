@@ -1,6 +1,13 @@
+Jenkins setup
+1. install nodejs plugin in jenkins
+
+
 Environment varaible setup
 https://create-react-app.dev/docs/deployment/#customizing-environment-variables-for-arbitrary-build-environments
 
 
 docs for env-cmd
 https://www.npmjs.com/package/env-cmd
+
+ENV
+http://localhost:8080/env-vars.html/
