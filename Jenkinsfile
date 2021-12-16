@@ -9,6 +9,7 @@ pipeline {
             steps {
                 echo 'installing npm packages'
                 echo "Node home: ${NODEJS_HOME}"
+                echo: "Workspace: ${WORKSPACE}"
                 sh 'npm install'
                 sh 'npm run build:staging'
             }
