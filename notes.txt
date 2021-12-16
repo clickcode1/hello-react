@@ -1,5 +1,6 @@
 Jenkins setup
 1. install nodejs plugin in jenkins
+2. add nodejs tools http://localhost:8080/configureTools/
 2. then follow steps here https://plugins.jenkins.io/nodejs/#plugin-content-usage
 
 
