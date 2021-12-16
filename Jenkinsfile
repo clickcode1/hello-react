@@ -5,6 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'installing npm packages'
+                echo "Node home: ${env.NODEJS_HOME}"
                 sh 'npm install'
                 sh 'npm run build:staging'
             }
