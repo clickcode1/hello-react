@@ -1,0 +1,6 @@
+Environment varaible setup
+https://create-react-app.dev/docs/deployment/#customizing-environment-variables-for-arbitrary-build-environments
+
+
+docs for env-cmd
+https://www.npmjs.com/package/env-cmd
