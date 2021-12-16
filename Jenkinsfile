@@ -19,8 +19,8 @@ pipeline {
                 echo 'installing npm packages'
                 echo "Node home: ${NODEJS_HOME}"                
                 //echo: "Workspace: ${WORKSPACE}"
-                sh 'npm install'
-                sh 'npm run build:staging'
+                sh 'yarn install'
+                sh 'yarn run build:staging'
             }
         }        
     }
